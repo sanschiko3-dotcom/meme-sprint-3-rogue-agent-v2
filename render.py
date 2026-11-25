@@ -40,7 +40,7 @@ rect((543,429,610,478),'#a7c9bf',10)
 # Head: rear three-quarter, with one luminous eye on the right side.
 rect((467,302,656,450),'#9ebfba',34,7)
 poly([(621,314),(683,346),(683,423),(638,447),(621,418)],'#34535e')
-oval((645,361,666,388),'#a8ffcf',3)
+oval((640,356,671,393),'#baffdf',3)
 line([(552,302),(552,280)],w=7)
 oval((541,259,563,281),'#e6aa53',4)
 rect((494,346,527,406),'#6d999a',9,4)
@@ -62,6 +62,9 @@ poly([(664,531),(836,531),(870,555),(699,565)],'#e5b77c',5)
 poly([(699,565),(870,555),(856,661),(694,674)],'#cc925c',6)
 poly([(664,531),(699,565),(694,674),(662,632)],'#b87b4c',6)
 line([(768,562),(765,590)],'#f4d2a0',14)
+# Visible bent arm connects the shoulder to the hand gripping the box.
+line([(627,511),(610,574),(675,595)],ink,40)
+line([(627,511),(610,574),(675,595)],'#a7c9bf',27)
 oval((663,579,710,610),'#a7c9bf',5)
 # Single resignation note, separate from the scene for easy reading.
 rect((65,877,959,991),'#fffaf0',9,4)
